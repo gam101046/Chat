@@ -167,7 +167,7 @@ function ChatSeller() {
             <div className="messages" style={{ marginTop: "16px", overflowY: "auto", height: "calc(100% - 80px)" }}>
               {messages.map((msg) => (
                 <div key={msg.ID} style={{ marginBottom: "10px" }}>
-                  <strong>{msg.SenderID}</strong>: {msg.Content}
+                  <strong></strong> {msg.Content}
                 </div>
               ))}
             </div>
